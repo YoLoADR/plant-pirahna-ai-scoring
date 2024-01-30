@@ -1,0 +1,13 @@
+node_modules
+.env
+
+/env
+
+
+real_estate_data_cleaned.csv
+real_estate_data_transformed.csv
+real_estate_data.csv
+X_test.csv
+X_train.csv
+y_test.csv
+x_test.csv
