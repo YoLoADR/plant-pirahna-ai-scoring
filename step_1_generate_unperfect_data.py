@@ -28,7 +28,7 @@ data_keys = list(data.keys())
 data_values = np.array(list(data.values())).T
 
 # Introduire des valeurs manquantes
-missing_mask = np.random.rand(n_projects, len(data_keys)) < 0.1
+missing_mask = np.random.rand(n_projects, len(data_keys)) < 0.05
 data_values = np.where(missing_mask, np.nan, data_values)
 
 # Introduire des valeurs aberrantes uniquement dans la colonne 'price'

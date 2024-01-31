@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from sklearn.model_selection import train_test_split
 
 # Step 6 : Data Division
@@ -6,6 +7,9 @@ from sklearn.model_selection import train_test_split
 
 # Charger les données transformées
 df_encoded = pd.read_csv("real_estate_data_transformed.csv")
+
+# Prendre le logarithme de la variable 'price'
+df_encoded['price'] = np.log(df_encoded['price'])
 
 # Séparer les données en features (X) et target (y)
 X = df_encoded.drop('price', axis=1)
