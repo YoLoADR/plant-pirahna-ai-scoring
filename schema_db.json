@@ -1,0 +1,50 @@
+[
+    {
+      "user_id": 1,
+      "age": 35,
+      "gender": "Male",
+      "investment_preferences": {
+        "location": ["Location1", "Location3"],
+        "property_type": ["Residential"],
+        "max_price": 300000,
+        "min_property_size": 75
+      },
+      "investment_history": [
+        {
+          "project_id": 5,
+          "invested_amount": 250000,
+          "location": "Location1",
+          "property_type": "Residential",
+          "property_size": 80
+        },
+        {
+          "project_id": 20,
+          "invested_amount": 280000,
+          "location": "Location3",
+          "property_type": "Residential",
+          "property_size": 120
+        }
+      ]
+    },
+    {
+      "user_id": 2,
+      "age": 29,
+      "gender": "Female",
+      "investment_preferences": {
+        "location": ["Location2"],
+        "property_type": ["Commercial"],
+        "max_price": 450000,
+        "min_property_size": 100
+      },
+      "investment_history": [
+        {
+          "project_id": 10,
+          "invested_amount": 350000,
+          "location": "Location2",
+          "property_type": "Commercial",
+          "property_size": 150
+        }
+      ]
+    },
+  ]
+  
